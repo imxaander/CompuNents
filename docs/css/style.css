@@ -6,6 +6,7 @@ body, html{
     margin: 0;
     padding: 0;
     font-family: Main;
+    scroll-behavior: smooth;
 }
 #topbar{
     width: 100%;
@@ -26,7 +27,7 @@ body, html{
     align-items: center; 
 }
 #tablinks{
-    
+    font-size: 20px;
 }
 #tablinks a{
     text-decoration: none;
@@ -41,33 +42,47 @@ body, html{
         "recent recent recent recent recent promos"
     ;
     grid-gap: 20px;
-    width: 90%;
-    margin-top: 15px;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 1200px;
+    margin: auto;
 }
 #home-top-area > div{  
-    background-color: gray;  
 }
+
 #recent-release-carousel-container{
     grid-area: recent;
+    width: 870px;
+    transition: height 0.3s;
 }
 #promos-container{
     grid-area: promos;
-
+    height: 400px;
+    overflow-wrap:normal;
 }
 #promos-container img{
-    width: 400px;
+    width: 270px;
+    border-radius: 10px;
+}
+.carousel-item img{
+    border-radius: 10px;
 }
 
-.carousel .carousel-item {
-    height: 500px;
-  }
-  
-  .carousel-item img {
-      position: absolute;
-      object-fit: cover;
-      top: 0;
-      left: 0;
-      min-height: 500px;
-  }
+#home-recent-area{
+    width: 1200px;
+    margin: auto;
+}
+#new-arrivals-title{
+    background-color: #4e8aac;
+    height: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: white; 
+}
+#new-arrivals-container{
+    border: solid #4e8aac 1px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#new-arrivals-items{
+    padding: 10px;
+}
