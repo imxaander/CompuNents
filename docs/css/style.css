@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Main;
+    src: url(/docs/fonts/SF-Pro-Display-Regular.ttf);
+}
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: Main;
+}
+#topbar{
+    width: 100%;
+    background-color: #719cb4;
+}
+#topbar-logo{
+    min-width: 200px;
+    max-width: 15%;
+}
+#topbar-under{
+    width: 100%;
+    height: 40px;
+    background-color: #4e8aac;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+#tablinks{
+    
+}
+#tablinks a{
+    text-decoration: none;
+    color: white;
+}
+#tablinks a:active{
+    color: #96d7e9;
+}
+#home-top-area{
+    display: grid;
+    grid-template-areas: 
+        "recent recent recent recent recent promos"
+    ;
+    grid-gap: 20px;
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#home-top-area > div{  
+    background-color: gray;  
+}
+#recent-release-carousel-container{
+    grid-area: recent;
+}
+#promos-container{
+    grid-area: promos;
+
+}
+#promos-container img{
+    width: 400px;
+}
+
+.carousel .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item img {
+      position: absolute;
+      object-fit: cover;
+      top: 0;
+      left: 0;
+      min-height: 500px;
+  }
