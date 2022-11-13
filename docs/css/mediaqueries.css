@@ -15,6 +15,10 @@
     #promos-container{
         display: none;
     }
+    .top-area-contents{
+        width: 90%;
+        margin: auto;
+    }
 }
 @media (min-width: 1025px) {
 }
