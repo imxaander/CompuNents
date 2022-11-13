@@ -121,6 +121,10 @@ body, html{
 #social-media-links{
     text-align: center;
 }
+#social-media-links img{
+    width: 200px;
+    border-radius: 15px;
+}
 #social-media-links a{
 
     font-size: 25px;
