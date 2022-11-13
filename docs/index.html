@@ -8,6 +8,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/mediaqueries.css">
+        <script src="https://kit.fontawesome.com/6b9c8a6e93.js" crossorigin="anonymous"></script>
         <title>CompuNents Builder</title>
     </head>
     <body>
@@ -16,10 +17,10 @@
             <img id="topbar-logo" src="img/image.png" alt="[CompuNents Builder Image]">
             <div id="topbar-under">
               <div id="tablinks" role="tablist">
-                  <a href="#home-tab" data-bs-toggle="tab" class="active" data-bs-target="#home-tab" role="tab" aria-controls="home" aria-selected="true">Home</a> | 
-                  <a href="#products-tab" data-bs-toggle="tab" data-bs-target="#products-tab" role="tab" aria-controls="products" aria-selected="false">Products</a> | 
-                  <a href="#blog-tab" data-bs-toggle="tab" data-bs-target="#blog-tab" role="tab" aria-controls="blog" aria-selected="false">Blog</a> | 
-                  <a href="#about-tab" data-bs-toggle="tab" data-bs-target="#about-tab" role="tab" aria-controls="about" aria-selected="false">About</a>
+                  <a href="#home-tab" data-bs-toggle="tab" class="tablink active" data-bs-target="#home-tab" role="tab" aria-controls="home" aria-selected="true">Home</a> | 
+                  <a href="#products-tab" data-bs-toggle="tab" class="tablink" data-bs-target="#products-tab" role="tab" aria-controls="products" aria-selected="false">Products</a> | 
+                  <a href="#blog-tab" data-bs-toggle="tab" class="tablink" data-bs-target="#blog-tab" role="tab" aria-controls="blog" aria-selected="false">Blog</a> | 
+                  <a href="#about-tab" data-bs-toggle="tab" class="tablink" data-bs-target="#about-tab" role="tab" aria-controls="about" aria-selected="false">About</a>
               </div>
           </div>
         </div>
@@ -118,7 +119,14 @@
           </div>
   
           <div id="about-tab" role="tabpanel" class="tab-pane fade">
-            <h1 align="center">About Us</h1>
+            <div class="top-area-contents mv-pane" id="mission-pane">
+              <h3><i>About Us</i></h3>
+              <div>
+                <p>
+                  CompuNents Builder offers both goods and services for the gamers in gaming and live streaming industry. As our customers buy gaming PC set or components in our shop, our company also offers a PC building that will ensure the durability and quality of their PC. With means of entering our shop emptyhanded, CompuNents Builder wants their customers to leave with PC components or a PC set in their hands as we offer a one-stop solution for them. Our company also helps our customers to be more knowledgeable about PC building and PC component, we will offer a free tutorial, lessons or tips in building a PC which assures our customers about the confidence we have for our goods and services.                
+                </p>
+              </div>
+            </div>
             <br><br>
               <div class="top-area-contents mv-pane" id="mission-pane">
                 <h3><i>Our Mission</i></h3>
@@ -129,7 +137,7 @@
                 </div>
               </div>
             <br><br>
-              <div class="top-area-contents mv-pane" id="mission-pane">
+              <div class="top-area-contents mv-pane" id="vission-pane">
                 <h3><i>Our Vision</i></h3>
                 <div>
                   <p>
@@ -139,7 +147,13 @@
               </div>
           </div>
         </div>
-        
+        <br>
+    <div id="footer-area">
+      <div id="social-media-links">
+          <h3>Follow Us</h3>
+          <i class="fa fa-youtube-play" aria-hidden="true"></i>
+      </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
     <script src="/docs/js/script.js"></script>

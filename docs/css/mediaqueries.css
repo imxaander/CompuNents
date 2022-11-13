@@ -19,6 +19,12 @@
         width: 90%;
         margin: auto;
     }
-}
+    #topbar-logo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}  
 @media (min-width: 1025px) {
 }
