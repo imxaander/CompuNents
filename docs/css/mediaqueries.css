@@ -25,6 +25,12 @@
         margin-right: auto;
         width: 50%;
     }
+    .mv-pane div{
+        margin: auto;
+        width: 90%;
+        text-indent: 20px;
+        line-height: 30px;
+    }
 }  
 @media (min-width: 1025px) {
 }

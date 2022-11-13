@@ -116,6 +116,11 @@ body, html{
     color: white;
 
 }
-#social-media-links i{
-    font-size: 30px;
+#social-media-links a{
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+#social-media-links a:hover{
+    --fa-bounce-start-scale-x: 1
 }
