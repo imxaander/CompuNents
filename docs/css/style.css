@@ -111,16 +111,29 @@ body, html{
 .tablinks:active{
     color: black;
 }
-#footer-area{
-    background-color: #282828;
+#footer-top-area{
+    width: 80%;
+    padding: 20px;
     color: white;
-
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#social-media-links{
+    text-align: center;
 }
 #social-media-links a{
+
     font-size: 25px;
     text-decoration: none;
     color: white;
 }
 #social-media-links a:hover{
     --fa-bounce-start-scale-x: 1
+}
+#footer-area{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #282828;
+
 }
